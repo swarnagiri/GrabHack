@@ -1,0 +1,95 @@
+{
+  "merchants": [
+    {
+      "id": "M001",
+      "name": "Burger Place",
+      "cuisine": "Fast Food",
+      "prep_time_min": 40,
+      "location": "Downtown",
+      "status": "Overloaded"
+    },
+    {
+      "id": "M002",
+      "name": "Sushi World",
+      "cuisine": "Japanese",
+      "prep_time_min": 20,
+      "location": "Uptown",
+      "status": "Normal"
+    },
+    {
+      "id": "M003",
+      "name": "Taco Town",
+      "cuisine": "Mexican",
+      "prep_time_min": 15,
+      "location": "Downtown",
+      "status": "Normal"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "D7",
+      "name": "Alex",
+      "current_status": "Waiting",
+      "current_location": "Burger Place",
+      "vehicle": "Bike"
+    },
+    {
+      "id": "D9",
+      "name": "Sam",
+      "current_status": "On Delivery",
+      "current_location": "Main Street",
+      "vehicle": "Car"
+    }
+  ],
+  "traffic": [
+    {
+      "route": "Downtown-Airport",
+      "status": "Blocked",
+      "delay_min": 45
+    },
+    {
+      "route": "Downtown-Uptown",
+      "status": "Normal",
+      "delay_min": 0
+    },
+    {
+      "route": "Uptown-Airport",
+      "status": "Blocked",
+      "delay_min": 50
+    },
+    {
+      "route": "Suburb-Downtown",
+      "status": "Normal",
+      "delay_min": 5
+    },
+    {
+      "route": "Harbor-Downtown",
+      "status": "Blocked",
+      "delay_min": 40
+    },
+    {
+      "route": "Airport-Suburb",
+      "status": "Normal",
+      "delay_min": 0
+    },
+    {
+      "route": "Downtown-Harbor",
+      "status": "Normal",
+      "delay_min": 8
+    }
+  ],
+  "lockers": [
+    {
+      "id": "L001",
+      "location": "Mall Entrance",
+      "capacity": 10,
+      "available_slots": 6
+    },
+    {
+      "id": "L002",
+      "location": "Train Station",
+      "capacity": 8,
+      "available_slots": 0
+    }
+  ]
+}
